@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#07090f">
+<title>Reyvan Nurhadiansyah — CV</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root{--bg:#06080d;--panel:#0e121a;--panel2:#121823;--line:#222a38;--text:#f6f8fc;--muted:#9ba6b7;--blue:#5ea2ff;--cyan:#65e7ff;--red:#e52d3f}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(circle at 80% 0,#16375c55,transparent 28%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.65;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:85px 85px;animation:stars 30s linear infinite}
+@keyframes stars{to{background-position:85px 170px}}
+a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+nav{position:fixed;z-index:50;top:18px;left:50%;transform:translateX(-50%);padding:10px 15px;border:1px solid #2b3444;background:#0d1119d9;backdrop-filter:blur(18px);border-radius:999px;white-space:nowrap;box-shadow:0 15px 60px #0007}
+nav a{font-size:12px;color:#aeb8c8;margin:0 9px}nav a:hover{color:#fff}
+.hero{min-height:100vh;display:grid;align-items:center;padding:120px 0 70px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:65px;align-items:center}
+.eyebrow{display:inline-flex;border:1px solid var(--line);padding:7px 12px;border-radius:999px;color:#aeb8c7;font-size:11px;letter-spacing:1.2px;background:#0d1118}
+h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(46px,7vw,82px);line-height:.95;letter-spacing:-4px;margin:20px 0}
+.gradient{background:linear-gradient(100deg,#fff,#75b5ff);-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:650px;font-size:17px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{border:1px solid var(--line);padding:12px 17px;border-radius:13px;font-weight:700;font-size:14px;background:#0e131c}.btn.primary{background:#fff;color:#080a0e}
+.btn:hover{transform:translateY(-2px)}
+.profile-shell{position:relative;max-width:420px;margin:auto;cursor:pointer}
+.profile{position:relative;border:1px solid #2a3445;border-radius:30px;padding:9px;background:linear-gradient(145deg,#1a2432,#090c12);box-shadow:0 35px 110px #000b;overflow:hidden}
+.profile img{width:100%;display:block;border-radius:23px}
+.profile:after{content:"TAP WAJAH";position:absolute;left:50%;bottom:18px;transform:translateX(-50%);font-size:10px;letter-spacing:1.5px;background:#080a0dcc;border:1px solid #ffffff22;padding:7px 11px;border-radius:99px;color:#fff}
+.spider-face{position:absolute;inset:9px;border-radius:23px;overflow:hidden;opacity:0;transform:scale(.92);transition:.55s;pointer-events:none}
+.spider-face.active{opacity:1;transform:scale(1)}
+.spider-mask{position:absolute;left:24%;top:14%;width:52%;height:30%;border-radius:48% 48% 43% 43%;background:radial-gradient(circle at 50% 45%,#3b1118,#16070a 75%);border:2px solid #ef3a4b;box-shadow:0 0 30px #ef263d66}
+.spider-mask:before{content:"";position:absolute;inset:0;background:repeating-radial-gradient(ellipse at 50% 50%,transparent 0 16px,#e9d8dc 17px 18px,transparent 19px 31px);opacity:.35}
+.eye{position:absolute;top:30%;width:22%;height:25%;background:#eef7ff;border:3px solid #111;border-radius:65% 35% 65% 35%;box-shadow:0 0 14px #fff8}
+.eye.left{left:13%;transform:rotate(24deg)}.eye.right{right:13%;transform:rotate(-24deg)}
+.spider-mark{position:absolute;left:50%;top:62%;transform:translate(-50%,-50%);width:36px;height:65px}
+.spider-mark:before,.spider-mark:after{content:"";position:absolute;background:#050609;border-radius:99px}
+.spider-mark:before{width:10px;height:48px;left:13px;top:8px}.spider-mark:after{width:42px;height:10px;left:-3px;top:24px}
+.spider-label{position:absolute;inset:auto 0 0;padding:14px;text-align:center;background:linear-gradient(transparent,#05070dcc);font-size:11px;letter-spacing:1px}
+.face-hotspot{position:absolute;left:29%;top:17%;width:42%;height:29%;z-index:5;border-radius:50%}
+section{padding:100px 0}.section-head{margin-bottom:30px}.kicker{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.title{font:700 38px "Space Grotesk";letter-spacing:-1.5px;margin-top:5px}.sub{color:var(--muted);max-width:700px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:linear-gradient(145deg,#111722,#0b0e14);border:1px solid var(--line);border-radius:22px;padding:24px}.card h3{font-size:18px;margin-bottom:8px}.card p{color:var(--muted)}
+.data{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.data-item{padding:17px;border:1px solid var(--line);border-radius:15px;background:#0c1017}.label{display:block;font-size:10px;color:#6f7b8e;letter-spacing:1.4px;text-transform:uppercase}.value{display:block;font-weight:700;margin-top:4px;word-break:break-word}
+.timeline{border-left:1px solid #2b3443;padding-left:27px}.timeline-item{position:relative;margin-bottom:34px}.timeline-item:before{content:"";position:absolute;left:-32px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--blue);box-shadow:0 0 15px #5ea2ff99}.date{font-size:11px;color:#738097;letter-spacing:1px}.timeline-item h3{margin:4px 0}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:#0e131b;color:#cbd3df}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:18px;border:1px solid var(--line);display:block}.gallery .big{min-height:420px}.gallery .side{display:grid;gap:18px}.gallery .side img{min-height:201px}
+.cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.cert{overflow:hidden;padding:0}.cert img{width:100%;display:block;cursor:pointer}.cert-info{padding:18px}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.contact .card{text-align:center}
+footer{border-top:1px solid var(--line);padding:32px 0;color:#687487;text-align:center;font-size:12px}
+.reveal{opacity:0;transform:translateY(24px);transition:.7s}.reveal.show{opacity:1;transform:none}
+.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);opacity:0;background:#101621;border:1px solid #2d384a;border-radius:999px;padding:10px 15px;font-size:12px;z-index:100;transition:.3s}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:800px){nav a{margin:0 5px;font-size:11px}.hero-grid,.grid,.gallery,.cert-grid{grid-template-columns:1fr}.data,.contact{grid-template-columns:1fr}.hero{padding-top:110px}.profile-shell{max-width:340px}.title{font-size:32px}.gallery .big{min-height:250px}.gallery .side img{min-height:220px}}
+</style>
+</head>
+<body>
+<nav>
+<a href="#profil">Profil</a><a href="#pendidikan">Pendidikan</a><a href="#pengalaman">Pengalaman</a><a href="#skill">Skill</a><a href="#galeri">Galeri</a><a href="#sertifikat">Sertifikat</a><a href="#kontak">Kontak</a>
+</nav>
+
+<header class="hero">
+<div class="wrap hero-grid">
+<div class="reveal">
+<span class="eyebrow">CURRICULUM VITAE • TEKNIK ALAT BERAT</span>
+<h1>REYVAN<br><span class="gradient">NURHADIANSYAH</span></h1>
+<p>Siswa Teknik Alat Berat yang sedang mempersiapkan diri menuju dunia kerja, dengan pengalaman praktik di bidang alat berat dan otomotif serta ketertarikan pada maintenance dan troubleshooting.</p>
+<div class="buttons"><a class="btn primary" href="#profil">Lihat CV</a><a class="btn" href="#kontak">Hubungi Saya</a></div>
+</div>
+<div class="profile-shell reveal" id="profileCard" title="Tekan bagian wajah">
+<div class="profile">
+<img src="assets/foto-profil.jpg" alt="Foto profil Reyvan">
+<div class="spider-face" id="spiderFace">
+  <div class="spider-mask"><i class="eye left"></i><i class="eye right"></i><i class="spider-mark"></i></div>
+  <div class="spider-label">SPIDER MODE • TAP LAGI UNTUK KEMBALI</div>
+</div>
+<div class="face-hotspot" id="faceHotspot"></div>
+</div>
+</div>
+</div>
+</header>
+
+<section id="profil"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">01 / PROFILE</div><h2 class="title">Data Diri</h2><p class="sub">Ringkasan informasi pribadi untuk kebutuhan CV.</p></div>
+<div class="data">
+<div class="data-item"><span class="label">Nama Lengkap</span><span class="value">Reyvan Nurhadiansyah</span></div>
+<div class="data-item"><span class="label">Nama Panggilan</span><span class="value">Maung</span></div>
+<div class="data-item"><span class="label">Tempat, Tanggal Lahir</span><span class="value">Bogor, 1 Februari 2009</span></div>
+<div class="data-item"><span class="label">Jenis Kelamin</span><span class="value">Laki-laki</span></div>
+<div class="data-item"><span class="label">Domisili</span><span class="value">Bogor, Jawa Barat</span></div>
+<div class="data-item"><span class="label">Alamat</span><span class="value">Jl. Kampung Sanding 2, Desa Bojong Nangka, Kec. Gunung Putri, Kab. Bogor, Jawa Barat</span></div>
+</div>
+</div></section>
+
+<section><div class="wrap reveal">
+<div class="section-head"><div class="kicker">02 / ABOUT</div><h2 class="title">Tentang Saya</h2></div>
+<div class="card"><p>Saya merupakan siswa SMK jurusan Teknik Alat Berat yang memiliki ketertarikan pada dunia mekanik, khususnya perawatan, pemeriksaan, dan troubleshooting alat berat. Selama mengikuti kegiatan PKL, saya mendapatkan pengalaman di bidang otomotif melalui Shop & Drive serta pengalaman di bidang alat berat melalui CV Barokah Rizky.</p><br><p>Saya terbiasa bekerja dengan mengikuti arahan mekanik, menggunakan tools dasar, melakukan pemeriksaan komponen, serta menjaga keselamatan dan kebersihan selama bekerja. Saya memiliki kemauan untuk terus belajar, mampu bekerja sama dalam tim, dan tertarik untuk mengembangkan kemampuan di bidang maintenance dan mekanik alat berat.</p></div>
+</div></section>
+
+<section id="pendidikan"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">03 / EDUCATION</div><h2 class="title">Pendidikan</h2></div>
+<div class="timeline">
+<div class="timeline-item"><div class="date">SEDANG DITEMPUH • TARGET LULUS 2027</div><h3>SMKN 14 Kota Bekasi</h3><p>Teknik Alat Berat</p></div>
+<div class="timeline-item"><div class="date">SMP</div><h3>SMPN 2 Gunung Putri</h3><p>Pendidikan menengah pertama.</p></div>
+<div class="timeline-item"><div class="date">SD</div><h3>SDN 2 Bojong Nangka</h3><p>Pendidikan dasar.</p></div>
+</div>
+</div></section>
+
+<section id="pengalaman"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">04 / EXPERIENCE</div><h2 class="title">Pengalaman Praktik</h2></div>
+<div class="grid">
+<div class="card"><div class="date">13 JANUARI — 13 JUNI 2026</div><h3>CV Barokah Rizky</h3><p>Praktik bidang alat berat: pemeriksaan dan perawatan komponen, pemeriksaan selang/fitting dan kebocoran hydraulic, pemeriksaan serta pembersihan control valve, persiapan tools, K3, dan kebersihan area kerja.</p></div>
+<div class="card"><div class="date">8 JULI — 8 NOVEMBER 2026</div><h3>Shop & Drive Cileungsi</h3><p>Praktik bidang otomotif: maintenance dasar kendaraan, penggantian oli, pemeriksaan aki, radiator, filter AC, tune-up, serta pemeriksaan kondisi kendaraan.</p></div>
+</div>
+</div></section>
+
+<section id="skill"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">05 / SKILLS</div><h2 class="title">Keahlian</h2><p class="sub">Kemampuan yang dikembangkan melalui pembelajaran sekolah dan praktik.</p></div>
+<div class="skills">
+<span class="skill">Basic Maintenance</span><span class="skill">Engine</span><span class="skill">Hydraulic System</span><span class="skill">Electrical Dasar</span><span class="skill">Troubleshooting</span><span class="skill">Control Valve</span><span class="skill">Battery</span><span class="skill">Tune-Up</span><span class="skill">Hand Tools</span><span class="skill">Alat Ukur Dasar</span><span class="skill">K3</span><span class="skill">Preventive Maintenance</span>
+</div>
+</div></section>
+
+<section id="galeri"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">06 / GALLERY</div><h2 class="title">Praktik & Kegiatan</h2><p class="sub">Dokumentasi pengalaman di lingkungan alat berat.</p></div>
+<div class="gallery"><img class="big" src="assets/foto-pkl-1.jpg" alt="Kegiatan praktik alat berat"><div class="side"><img src="assets/foto-pkl-2.jpg" alt="Kegiatan praktik bersama tim"><img src="assets/foto-profil.jpg" alt="Foto formal Reyvan"></div></div>
+</div></section>
+
+<section id="sertifikat"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">07 / CERTIFICATES</div><h2 class="title">Sertifikat</h2><p class="sub">Dokumen yang mendukung pengalaman dan kompetensi.</p></div>
+<div class="cert-grid">
+<div class="card cert"><img src="assets/sertifikat-alat-berat.png" alt="Sertifikat Basic Troubleshooting Alat Berat"><div class="cert-info"><h3>Basic Troubleshooting Alat Berat</h3><p>CV Barokah Rizky • 2026</p></div></div>
+<div class="card cert"><img src="assets/sertifikat-pkl.png" alt="Sertifikat PKL Shop & Drive"><div class="cert-info"><h3>Praktik Kerja Lapangan</h3><p>Shop & Drive Cileungsi • 2026</p></div></div>
+</div>
+</div></section>
+
+<section id="kontak"><div class="wrap reveal">
+<div class="section-head"><div class="kicker">08 / CONTACT</div><h2 class="title">Kontak</h2></div>
+<div class="contact">
+<a class="card" href="https://wa.me/6282328811532"><span class="label">WhatsApp</span><h3>0823 2881 1532</h3></a>
+<a class="card" href="mailto:reyvanotomotif1@gmail.com"><span class="label">Email</span><h3>reyvanotomotif1@gmail.com</h3></a>
+<a class="card" href="https://instagram.com/medusakw7"><span class="label">Instagram</span><h3>@medusakw7</h3></a>
+</div>
+<div style="margin-top:15px;text-align:center;color:#778296;font-size:12px">TikTok: @sirenjago</div>
+</div></section>
+
+<footer>© 2026 Reyvan Nurhadiansyah • Curriculum Vitae</footer>
+<div class="toast" id="toast">Spider mode aktif</div>
+<script>
+const face=document.getElementById('spiderFace'), hot=document.getElementById('faceHotspot'), toast=document.getElementById('toast');
+hot.addEventListener('click',e=>{
+ e.stopPropagation(); face.classList.toggle('active');
+ toast.textContent=face.classList.contains('active')?'Spider mode aktif':'Kembali ke foto asli';
+ toast.classList.add('show'); setTimeout(()=>toast.classList.remove('show'),1400);
+});
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+</script>
+</body>
+</html>
